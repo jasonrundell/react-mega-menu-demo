@@ -1,0 +1,146 @@
+/* 
+ * When making custom styles for the React Mega Menu components, it's important to include [class*="css-"] 
+ * due to the nature of the emotion library adding it's dynamic styles AFTER the custom class name 
+ */
+
+/* Theme: light */
+.rmm__theme--light[class*="css-"],
+.rmm__theme--light[class*="css-"] .rmm__topbar,
+.rmm__theme--light[class*="css-"] .rmm__nav,
+.rmm__theme--light[class*="css-"] .rmm__mega-list,
+.rmm__theme--light[class*="css-"] .rmm__nav-list {
+  background-color: #fff;
+  color: #000;
+}
+
+.rmm__theme--light[class*="css-"] h1,
+.rmm__theme--light[class*="css-"] .rmm__title,
+.rmm__theme--light[class*="css-"] .rmm__main-nav-item-link,
+.rmm__theme--light[class*="css-"] .rmm__nav-item-description {
+  color: #000;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__icon--up,
+.rmm__theme--dark[class*="css-"] .rmm__icon--right,
+.rmm__theme--dark[class*="css-"] .rmm__icon--down,
+.rmm__theme--dark[class*="css-"] .rmm__icon--left,
+.rmm__theme--dark[class*="css-"] .rmm__hamburger--label {
+  color: #000;
+}
+
+.rmm__theme--light[class*="css-"] .rmm__main-nav-item,
+.rmm__theme--light[class*="css-"] .rmm__menu {
+  background-color: #fff;
+}
+
+.rmm__theme--light[class*="css-"] .rmm__menu {
+  border-bottom: 0.0625rem solid #000;
+}
+
+.rmm__theme--light[class*="css-"] .rmm__hamburger--slice {
+  background-color: #000;
+}
+
+@media (min-width: 64rem) {
+  .rmm__theme--light[class*="css-"] .rmm__mega-list {
+    border-top: none;
+    border-right: 0.25rem solid #666;
+    border-bottom: 0.25rem solid #333;
+    border-left: 0.25rem solid #666;
+  }
+}
+
+/* Theme: dark */
+.rmm__theme--dark[class*="css-"],
+.rmm__theme--dark[class*="css-"] .rmm__topbar,
+.rmm__theme--dark[class*="css-"] .rmm__nav,
+.rmm__theme--dark[class*="css-"] .rmm__mega-list,
+.rmm__theme--dark[class*="css-"] .rmm__nav-list {
+  background-color: #000;
+  color: #fff;
+}
+
+.rmm__theme--dark[class*="css-"] h1,
+.rmm__theme--dark[class*="css-"] .rmm__title,
+.rmm__theme--dark[class*="css-"] .rmm__main-nav-item-link,
+.rmm__theme--dark[class*="css-"] .rmm__nav-item-description {
+  color: #fff;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__icon--up,
+.rmm__theme--dark[class*="css-"] .rmm__icon--right,
+.rmm__theme--dark[class*="css-"] .rmm__icon--down,
+.rmm__theme--dark[class*="css-"] .rmm__icon--left,
+.rmm__theme--dark[class*="css-"] .rmm__hamburger--label {
+  color: #fff;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__main-nav-item,
+.rmm__theme--dark[class*="css-"] .rmm__menu {
+  background-color: #000;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__menu {
+  border-bottom: 0.0625rem solid #fff;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__hamburger--slice {
+  background-color: #fff;
+}
+
+@media (min-width: 64rem) {
+  .rmm__theme--dark[class*="css-"] .rmm__mega-list {
+    border-top: none;
+    border-right: 0.25rem solid #e7e7e7;
+    border-bottom: 0.25rem solid #a3a3a3;
+    border-left: 0.25rem solid #e7e7e7;
+  }
+}
+
+/* Theme: monokai */
+
+.rmm__theme--monokai[class*="css-"],
+.rmm__theme--monokai[class*="css-"] .rmm__topbar,
+.rmm__theme--monokai[class*="css-"] .rmm__nav,
+.rmm__theme--monokai[class*="css-"] .rmm__mega-list,
+.rmm__theme--monokai[class*="css-"] .rmm__nav-list {
+  background-color: #272822;
+  color: #f8f8f2;
+}
+
+.rmm__theme--monokai[class*="css-"] h1,
+.rmm__theme--monokai[class*="css-"] .rmm__title,
+.rmm__theme--monokai[class*="css-"] .rmm__main-nav-item-link,
+.rmm__theme--monokai[class*="css-"] .rmm__nav-item-description {
+  color: #f8f8f2;
+}
+
+.rmm__theme--monokai[class*="css-"] .rmm__icon--up,
+.rmm__theme--monokai[class*="css-"] .rmm__icon--right,
+.rmm__theme--monokai[class*="css-"] .rmm__icon--down,
+.rmm__theme--monokai[class*="css-"] .rmm__icon--left,
+.rmm__theme--monokai[class*="css-"] .rmm__hamburger--label {
+  color: #f8f8f2;
+}
+
+.rmm__theme--monokai[class*="css-"] .rmm__main-nav-item,
+.rmm__theme--monokai[class*="css-"] .rmm__menu {
+  background-color: #272822;
+}
+
+.rmm__theme--monokai[class*="css-"] .rmm__menu {
+  border-bottom: 0.0625rem solid #f8f8f2;
+}
+
+.rmm__theme--monokai[class*="css-"] .rmm__hamburger--slice {
+  background-color: #f8f8f2;
+}
+
+@media (min-width: 64rem) {
+  .rmm__theme--monokai[class*="css-"] .rmm__mega-list {
+    border-top: none;
+    border-right: 0.25rem solid #75715e;
+    border-bottom: 0.25rem solid #49483e;
+    border-left: 0.25rem solid #75715e;
+  }
+}
