@@ -199,8 +199,8 @@ const menuConfig = {
 export default function Home() {
   useEffect(() => {
     // add the rmm__theme--light class to the rmm__menu element
-    // document.getElementById("rmm__menu").classList.add("rmm__theme--light");
-    document.getElementById("rmm__menu").classList.add("rmm__theme--dark");
+    document.getElementById("rmm__menu").classList.add("rmm__theme--light");
+    // document.getElementById("rmm__menu").classList.add("rmm__theme--dark");
     // document.getElementById("rmm__menu").classList.add("rmm__theme--monokai");
   }, []);
   return (
