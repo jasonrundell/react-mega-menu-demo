@@ -51,6 +51,10 @@
   height: 2rem;
 }
 
+.rmm__theme--light[class*="css-"] .rmm__nav-item-link {
+  color: #000;
+}
+
 .rmm__theme--light[class*="css-"] .rmm__nav-item-link--forward:after {
   content: url(/images/icons/light/angle-right.svg);
   position: absolute;
@@ -186,6 +190,10 @@
   bottom: -30%;
   width: 1rem;
   height: 2rem;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__nav-item-link {
+  color: #fff;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__nav-item-link--forward:after {
@@ -324,6 +332,10 @@
   bottom: -30%;
   width: 1rem;
   height: 2rem;
+}
+
+.rmm__theme--monokai[class*="css-"] .rmm__nav-item-link {
+  color: #f8f8f2;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__nav-item-link--forward:after {
