@@ -18,7 +18,7 @@ const menuConfig = {
       alt: "Placeholder Logo",
       rel: "home",
     },
-    title: "Your Site Title",
+    title: "React Mega Menu Demo",
   },
   menu: {
     items: [
