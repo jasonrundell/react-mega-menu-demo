@@ -15,18 +15,13 @@
 }
 
 .rmm__theme--light[class*="css-"] .rmm__topbar {
-  border-top: 0.0625rem solid grey;
-  border-right: 0.25rem solid #000;
-}
-
-.rmm__theme--light[class*="css-"] .rmm__nav {
-  border-top: 0.0625rem solid grey;
-  border-right: 0.25rem solid #000;
+  height: 2rem;
 }
 
 .rmm__theme--light[class*="css-"] .rmm__hamburger {
   border: none;
   background: none;
+  top: 4.25rem;
 }
 
 .rmm__theme--light[class*="css-"] .rmm__hamburger--label {
@@ -37,9 +32,19 @@
   background-color: #000;
 }
 
+.rmm__theme--light[class*="css-"] .rmm__menu {
+  top: 6rem;
+}
+
+.rmm__theme--light[class*="css-"] .rmm__nav-list,
+.rmm__theme--light[class*="css-"] .rmm__mega-list {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .rmm__theme--light[class*="css-"] .rmm__nav-list--sub {
-  background-color: #fff;
-  border-right: 0.25rem solid #999;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .rmm__theme--light[class*="css-"] .rmm__main-nav-item-link--icon {
@@ -53,15 +58,16 @@
 
 .rmm__theme--light[class*="css-"] .rmm__nav-item-link {
   color: #000;
+  align-items: center;
+  height: 2rem;
 }
 
 .rmm__theme--light[class*="css-"] .rmm__nav-item-link--forward:after {
   content: url(/images/icons/light/angle-right.svg);
   position: absolute;
   right: 2rem;
-  bottom: -30%;
+  top: 0;
   width: 1rem;
-  height: 2rem;
 }
 
 .rmm__theme--light[class*="css-"] .rmm__nav-item-link--back {
@@ -72,9 +78,8 @@
   content: url(/images/icons/light/angle-left.svg);
   position: absolute;
   left: 0;
-  bottom: -30%;
+  top: 0;
   width: 1rem;
-  height: 2rem;
 }
 
 .rmm__theme--light[class*="css-"] h1,
@@ -106,7 +111,6 @@
 
   .rmm__theme--light[class*="css-"] .rmm__nav {
     border-top: none;
-    border-right: none;
     border-bottom: 0.0625rem solid #000;
   }
 
@@ -114,15 +118,10 @@
     border-top: none;
     border-right: 0.25rem solid #666;
     border-bottom: 0.25rem solid #333;
-    border-left: 0.25rem solid #666;
   }
 
   .rmm__theme--light[class*="css-"] .rmm__nav-item--heading {
     display: none;
-  }
-
-  .rmm__theme--light[class*="css-"] .rmm__nav-list--sub {
-    border-right: none;
   }
 
   .rmm__theme--light[class*="css-"] .rmm__main-nav-item-link--icon {
@@ -158,16 +157,17 @@
 .rmm__theme--dark[class*="css-"] .rmm__topbar {
   border-top: 0.0625rem solid #fff;
   border-right: 0.25rem solid #fff;
+  height: 2rem;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__nav {
   border-top: 0.0625rem solid #fff;
-  border-right: 0.25rem solid #fff;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__hamburger {
   border: none;
   background: none;
+  top: 4.25rem;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__hamburger--label {
@@ -178,9 +178,19 @@
   background-color: #fff;
 }
 
+.rmm__theme--dark[class*="css-"] .rmm__menu {
+  top: 6rem;
+}
+
+.rmm__theme--dark[class*="css-"] .rmm__nav-list,
+.rmm__theme--dark[class*="css-"] .rmm__mega-list {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .rmm__theme--dark[class*="css-"] .rmm__nav-list--sub {
-  background-color: #000;
-  border-right: 0.25rem solid #666;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__main-nav-item-link--icon {
@@ -194,15 +204,16 @@
 
 .rmm__theme--dark[class*="css-"] .rmm__nav-item-link {
   color: #fff;
+  align-items: center;
+  height: 2rem;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__nav-item-link--forward:after {
   content: url(/images/icons/dark/angle-right.svg);
   position: absolute;
   right: 2rem;
-  bottom: -30%;
+  top: 0;
   width: 1rem;
-  height: 2rem;
 }
 
 .rmm__theme--dark[class*="css-"] .rmm__nav-item-link--back {
@@ -213,9 +224,8 @@
   content: url(/images/icons/dark/angle-left.svg);
   position: absolute;
   left: 0;
-  bottom: -30%;
+  top: 0;
   width: 1rem;
-  height: 2rem;
 }
 
 .rmm__theme--dark[class*="css-"] h1,
@@ -255,15 +265,10 @@
     border-top: none;
     border-right: 0.25rem solid #e7e7e7;
     border-bottom: 0.25rem solid #a3a3a3;
-    border-left: 0.25rem solid #e7e7e7;
   }
 
   .rmm__theme--dark[class*="css-"] .rmm__nav-item--heading {
     display: none;
-  }
-
-  .rmm__theme--dark[class*="css-"] .rmm__nav-list--sub {
-    border-right: none;
   }
 
   .rmm__theme--dark[class*="css-"] .rmm__main-nav-item-link--icon {
@@ -300,16 +305,17 @@
 .rmm__theme--monokai[class*="css-"] .rmm__topbar {
   border-top: 0.0625rem solid #75715e;
   border-right: 0.25rem solid #75715e;
+  height: 2rem;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__nav {
   border-top: 0.0625rem solid grey;
-  border-right: 0.25rem solid #000;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__hamburger {
   border: none;
   background: none;
+  top: 4.25rem;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__hamburger--label {
@@ -320,9 +326,19 @@
   background-color: #f8f8f2;
 }
 
+.rmm__theme--monokai[class*="css-"] .rmm__menu {
+  top: 6rem;
+}
+
+.rmm__theme--monokai[class*="css-"] .rmm__nav-list,
+.rmm__theme--monokai[class*="css-"] .rmm__mega-list {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .rmm__theme--monokai[class*="css-"] .rmm__nav-list--sub {
-  background-color: #272822;
-  border-right: 0.25rem solid #49483e;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__main-nav-item-link--icon {
@@ -336,15 +352,16 @@
 
 .rmm__theme--monokai[class*="css-"] .rmm__nav-item-link {
   color: #f8f8f2;
+  align-items: center;
+  height: 2rem;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__nav-item-link--forward:after {
   content: url(/images/icons/monokai/angle-right.svg);
   position: absolute;
   right: 2rem;
-  bottom: -30%;
+  top: 0;
   width: 1rem;
-  height: 2rem;
 }
 
 .rmm__theme--monokai[class*="css-"] .rmm__nav-item-link--back {
@@ -355,9 +372,8 @@
   content: url(/images/icons/monokai/angle-left.svg);
   position: absolute;
   left: 0;
-  bottom: -30%;
+  top: 0;
   width: 1rem;
-  height: 2rem;
 }
 
 .rmm__theme--monokai[class*="css-"] h1,
@@ -397,11 +413,6 @@
     border-top: none;
     border-right: 0.25rem solid #75715e;
     border-bottom: 0.25rem solid #49483e;
-    border-left: 0.25rem solid #75715e;
-  }
-
-  .rmm__theme--monokai[class*="css-"] .rmm__nav-list--sub {
-    border-right: none;
   }
 
   .rmm__theme--monokai[class*="css-"] .rmm__nav-item--heading {
