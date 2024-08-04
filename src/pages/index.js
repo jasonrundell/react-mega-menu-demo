@@ -324,6 +324,26 @@ export default function Home() {
               Monokai
             </button>
           </li>
+          <li>
+            <button
+              onClick={() => {
+                document
+                  .getElementById("rmm__menu")
+                  .classList.remove("rmm__theme--light");
+                document
+                  .getElementById("rmm__menu")
+                  .classList.remove("rmm__theme--dark");
+                document
+                  .getElementById("rmm__menu")
+                  .classList.remove("rmm__theme--monokai");
+                document
+                  .getElementById("rmm__menu")
+                  .classList.add("rmm__theme--skeleton");
+              }}
+            >
+              Skeleton
+            </button>
+          </li>
         </ul>
       </main>
     </>
